@@ -17,7 +17,6 @@
   <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
   <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
   <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
@@ -52,7 +51,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">The STVchrono Dataset: Towards Continuous Change Recognition in Time</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -69,7 +68,7 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block"><sup>1</sup>National Institute of Advanced Industrial Science and Technology<br>Conferance name and year</span>
+                    <span class="author-block"><sup>1</sup>National Institute of Advanced Industrial Science and Technology(AIST),<br><sup>2</sup>Keio University, <sup>3</sup>supEdith Cowan University</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -107,17 +106,7 @@
                     <span>Code</span>
                   </a>
                 </span>
-
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
+                      
             </div>
           </div>
         </div>
@@ -133,7 +122,7 @@
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
         <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
+        <source src="static/figures/banner_video.mp4"
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
@@ -152,7 +141,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recognizing continuous changes offers valuable insights into past historical events, supports current trend analysis, and facilitates future planning. This knowledge is crucial for a variety of fields, such as meteorology and agriculture, environmental science, urban planning and construction, tourism, and cultural preservation. Currently, available datasets in the field of scene change understanding primarily concentrate on two main tasks: the detection of changed regions within a scene and the linguistic description of the change content. Existing datasets focus on recognizing discrete changes, such as adding or deleting an object from two images, and largely rely on artificially generated images. Consequently, the existing change understanding methods primarily focus on identifying distinct object differences, overlooking the importance of continuous, gradual changes occurring over extended time intervals. <br>To address the above issues, we propose a novel benchmark dataset, STVchrono, targeting the localization and description of long-term continuous changes in real-world scenes. The dataset consists of 71,900 photographs from Google Street View API taken over an 18-year span across 50 cities all over the world. Our STVchrono dataset is designed to support change recognition and description in both image pairs and extended image sequences, while also enabling the segmentation of changed regions. We conduct experiments to evaluate state-of-the-art methods on change description and segmentation, as well as multimodal Large Language Models for describing changes. Our findings reveal that even the most advanced methods lag human performance, emphasizing the need to adapt them to continuously changing real-world scenarios. We hope that our benchmark dataset will further facilitate the research of temporal change recognition in a dynamic world.
           </p>
         </div>
       </div>
