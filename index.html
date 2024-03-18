@@ -89,15 +89,15 @@
                 </span>
 
                 <!-- Supplementary PDF link -->
-                <span class="link-block">
-                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fas fa-file-pdf"></i>
-                    </span>
-                    <span>Supplementary</span>
-                  </a>
-                </span>
+<!--                <span class="link-block">-->
+<!--                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"-->
+<!--                    class="external-link button is-normal is-rounded is-dark">-->
+<!--                    <span class="icon">-->
+<!--                      <i class="fas fa-file-pdf"></i>-->
+<!--                    </span>-->
+<!--                    <span>Supplementary</span>-->
+<!--                  </a>-->
+<!--                </span>-->
 
                 <!-- Github link -->
                 <span class="link-block">
@@ -117,23 +117,10 @@
     </div>
   </section>
 
-<!--  <section class="section hero is-light">-->
-<!--    <div class="container is-max-desktop">-->
-<!--      <div class="columns is-centered has-text-centered">-->
-<!--        <div class="column is-four-fifths">-->
-<!--          <div class="content has-text-justified">-->
-<!--              <img src="static/images/overview.svg" alt="overview" >-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </section>-->
-<!--  &lt;!&ndash; End phange captioning image pair &ndash;&gt;-->
-
 <section class="hero teaser">
-  <div class="container is-max-desktop">
+  <div class="container ">
     <div class="hero-body">
-      <img  src="static/images/overview.svg" />
+      <img  src="static/images/overview.svg" width="1500"/>
     </div>
   </div>
 </section>
@@ -141,8 +128,8 @@
   <!-- Paper abstract -->
   <section class="section hero is-light">
     <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
+<!--      <div class="columns is-centered has-text-centered">-->
+        <div class="column is-centered has-text-centered">
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
@@ -173,66 +160,58 @@
   </section>
   <!-- End paper abstract -->
 
-<!--  <section class="hero teaser">-->
-<!--  <div class="container is-max-desktop">-->
-<!--    <div class="hero-body">-->
-<!--      <img  src="static/images/overview.svg" />-->
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <h1 class="title has-text-centered"> Continual Change Captioning (image pair) </h1>
+         <h2 class="subtitle has-text-centered" > Recognition of the change details between 2 images taken at 2 distinct time periods. </h2>
+        <!-- Your image here -->
+        <img src="static/images/change-caption-pair.svg" alt="MY ALT TEXT" width="800"/>
+      </div>
+
+      <div class="item">
+        <h1 class="title has-text-centered"> Continual Change Captioning (image sequence) </h1>
+        <h2 class="subtitle has-text-centered" > Recognition of the change tendencies over a sequence of 3-6 images taken at different time periods. </h2>
+        <!-- Your image here -->
+        <img src="static/images/change-caption-sequence.svg" alt="MY ALT TEXT" width="1100"/>
+
+      </div>
+      <div class="item">
+        <h1 class="title has-text-centered"> Change-Aware Sequential Instance Segmentation </h1>
+        <h2 class="subtitle has-text-centered">
+          Detecting, understanding and tracking of the change regions over a sequence of 5 images taken at different time periods.
+        </h2>
+        <!-- Your image here -->
+        <img src="static/images/change-segmentation.png" alt="MY ALT TEXT" width="1100" />
+     </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+  <section class="section hero is-light">
+<!--    <div class="container is-max-desktop">-->
+<!--      <div class="columns is-centered has-text-centered">-->
+          <h2 class="title has-text-centered">Experiments</h2>
+          <div class="column is-centered has-text-centered">
+            <h2 class="subtitle has-text-centered"> Change description evaluation on continual change captioning (image pair: left side; image sequence: right side) </h2>
+            <img src="static/images/result-caption.png", alt="Result" width="1000" >
+          </div>
+          <div class="column is-centered has-text-centered">
+            <h2 class="subtitle has-text-centered"> Evaluation on change-aware sequential instance segmentation (SwinT-S, -L: swintransformer small, large) </h2>
+            <img src="static/images/result-segmentation.png", alt="Result" width="500" >
+          </div>
+
+
+<!--      </div>-->
 <!--    </div>-->
-<!--  </div>-->
-<!--</section>-->
-
-  <!-- Change captioning image pair  -->
-  <section class="section hero is-light">
-    <div class="container is-max-desktop">
-      <h2 class="title is-3">Continual Change Captioning (image pair)</h2>
-            <h3>
-              Recognition of the change details between 2 images taken at 2 distinct time periods.
-            </h3>
-
-            <img src="static/images/change-caption-pair.svg" />
-    </div>
   </section>
-  <!-- End phange captioning image pair -->
 
-    <!-- Change captioning image sequence  -->
-  <section class="section hero is-light">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-          <h2 class="title is-3">Continual Change Captioning (image sequence)</h2>
-          <div class="content has-text-justified">
-            <p>
-              Recognition of the change tendencies over a sequence of 3-6 images taken at different time periods.
-            </p>
-            <ul>
-              <li>4,400 sequences in total</li>
-              <li>19,800 images</li>>
-            </ul>>
-            <img src="">
-          </div>
-      </div>
-    </div>
-  </section>
-  <!-- End phange captioning image sequence -->
 
-      <!-- Change captioning image sequence  -->
-  <section class="section hero is-light">
-    <div class="container is-max-desktop">
-      <div class="columns is-centered has-text-centered">
-          <h2 class="title is-3">Change-Aware Sequential Instance Segmentation </h2>
-          <div class="content has-text-justified">
-            <p>
-              Detecting, understanding and tracking of the change regions over a sequence of 5 images taken at different time periods.
-            </p>
-            <img src="">
-            <ul>
-              <li>520 sequences in total</li>
-              <li>2,600 images</li>>
-            </ul>>
-          </div>
-      </div>
-    </div>
-  </section>
-  <!-- End phange captioning image sequence -->
 
   <!--BibTex citation -->
   <section class="section" id="BibTeX">

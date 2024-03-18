@@ -2,6 +2,7 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+.php{text-decoration:underline}
 
 .footer .icon-link {
     font-size: 25px;
@@ -135,3 +136,4 @@ body {
 
 
 
+.item{text-align: center;}
